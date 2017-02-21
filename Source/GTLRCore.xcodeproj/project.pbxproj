@@ -664,6 +664,7 @@
 		4FEE17CA1C03DB9E00A38758 /* GTMHTTPServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMHTTPServer.m; path = UnitTests/GTMHTTPServer.m; sourceTree = "<group>"; };
 		4FEE17CB1C03DB9E00A38758 /* GTMSessionFetcherTestServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherTestServer.h; path = UnitTests/GTMSessionFetcherTestServer.h; sourceTree = "<group>"; };
 		4FEE17CC1C03DB9E00A38758 /* GTMSessionFetcherTestServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherTestServer.m; path = UnitTests/GTMSessionFetcherTestServer.m; sourceTree = "<group>"; };
+		9A3443E31E5C893F003331F2 /* GTLR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLR.h; sourceTree = "<group>"; };
 		F407F0FE136F948A005A4866 /* GTLRTasksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLRTasksConstants.h; path = Generated/GTLRTasksConstants.h; sourceTree = "<group>"; };
 		F407F0FF136F948A005A4866 /* GTLRTasksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRTasksConstants.m; path = Generated/GTLRTasksConstants.m; sourceTree = "<group>"; };
 		F4368F721B8233BF00E17643 /* GTLRiOSUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTLRiOSUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1005,6 +1006,7 @@
 				4F3DE994119CCE49006926D1 /* GTLRDefines.h */,
 				4F5CC88E1381EC7300D1D4CF /* Objects */,
 				4F5CC88F1381EC7F00D1D4CF /* Utilities */,
+				9A3443E31E5C893F003331F2 /* GTLR.h */,
 			);
 			name = Common;
 			sourceTree = "<group>";
