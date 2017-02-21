@@ -1,0 +1,6 @@
+framework module GTLR {
+	umbrella header "GTLR.h"
+
+	export *
+	module * { export * }
+}

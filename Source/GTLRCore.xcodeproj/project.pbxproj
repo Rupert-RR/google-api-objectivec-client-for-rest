@@ -665,6 +665,7 @@
 		4FEE17CB1C03DB9E00A38758 /* GTMSessionFetcherTestServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherTestServer.h; path = UnitTests/GTMSessionFetcherTestServer.h; sourceTree = "<group>"; };
 		4FEE17CC1C03DB9E00A38758 /* GTMSessionFetcherTestServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherTestServer.m; path = UnitTests/GTMSessionFetcherTestServer.m; sourceTree = "<group>"; };
 		9A3443E31E5C893F003331F2 /* GTLR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLR.h; sourceTree = "<group>"; };
+		9A3443E61E5C8F12003331F2 /* module_map */ = {isa = PBXFileReference; lastKnownFileType = text; path = module_map; sourceTree = "<group>"; };
 		F407F0FE136F948A005A4866 /* GTLRTasksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLRTasksConstants.h; path = Generated/GTLRTasksConstants.h; sourceTree = "<group>"; };
 		F407F0FF136F948A005A4866 /* GTLRTasksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRTasksConstants.m; path = Generated/GTLRTasksConstants.m; sourceTree = "<group>"; };
 		F4368F721B8233BF00E17643 /* GTLRiOSUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTLRiOSUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1007,6 +1008,7 @@
 				4F5CC88E1381EC7300D1D4CF /* Objects */,
 				4F5CC88F1381EC7F00D1D4CF /* Utilities */,
 				9A3443E31E5C893F003331F2 /* GTLR.h */,
+				9A3443E61E5C8F12003331F2 /* module_map */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -2223,12 +2225,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Resources/GTLROSXFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-macOS.a",
@@ -2243,12 +2245,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Resources/GTLROSXFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
+				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-macOS.a",
@@ -2285,13 +2287,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-iOS.a",
@@ -2309,13 +2311,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-iOS.a",
@@ -2333,11 +2335,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRtvOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
+				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-tvOS.a",
@@ -2356,11 +2358,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRtvOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
+				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-tvOS.a",
