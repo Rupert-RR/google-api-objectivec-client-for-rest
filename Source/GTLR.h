@@ -13,7 +13,7 @@
 #endif /* GTLR_h */
 
 
-#import <GTLR/GTLRFramework.h>
+#import <GTLR/GTLRDefines.h>
 #import <GTLR/GTLRBatchQuery.h>
 #import <GTLR/GTLRBatchResult.h>
 #import <GTLR/GTLRDateTime.h>
@@ -24,3 +24,7 @@
 #import <GTLR/GTLRRuntimeCommon.h>
 #import <GTLR/GTLRService.h>
 #import <GTLR/GTLRUploadParameters.h>
+#import <GTLR/GTLRBase64.h>
+#import <GTLR/GTLRFramework.h>
+#import <GTLR/GTLRURITemplate.h>
+#import <GTLR/GTLRUtilities.h>
