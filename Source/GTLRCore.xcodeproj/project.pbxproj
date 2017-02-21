@@ -51,7 +51,7 @@
 		345D0E031DDF80A50044C585 /* OIDAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D8C1DDF80A50044C585 /* OIDAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345D0E041DDF80A50044C585 /* OIDAuthorizationRequest.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D8C1DDF80A50044C585 /* OIDAuthorizationRequest.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345D0E0C1DDF80A50044C585 /* OIDAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D8E1DDF80A50044C585 /* OIDAuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		345D0E0D1DDF80A50044C585 /* OIDAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D8E1DDF80A50044C585 /* OIDAuthorizationResponse.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		345D0E0D1DDF80A50044C585 /* OIDAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D8E1DDF80A50044C585 /* OIDAuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345D0E0E1DDF80A50044C585 /* OIDAuthorizationResponse.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D8E1DDF80A50044C585 /* OIDAuthorizationResponse.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345D0E161DDF80A50044C585 /* OIDAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D901DDF80A50044C585 /* OIDAuthorizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		345D0E171DDF80A50044C585 /* OIDAuthorizationService.h in Headers */ = {isa = PBXBuildFile; fileRef = 345D0D901DDF80A50044C585 /* OIDAuthorizationService.h */; settings = {ATTRIBUTES = (Public, ); }; };
