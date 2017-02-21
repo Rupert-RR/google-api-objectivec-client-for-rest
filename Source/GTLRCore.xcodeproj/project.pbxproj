@@ -12,7 +12,7 @@
 		340DAEF61D591EB900EC285B /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 340DAEF01D591EB900EC285B /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		340DAEF71D591EB900EC285B /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 340DAEF01D591EB900EC285B /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		340DAEF81D591EB900EC285B /* GTMAppAuthFetcherAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 340DAEF11D591EB900EC285B /* GTMAppAuthFetcherAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		340DAEF91D591EB900EC285B /* GTMAppAuthFetcherAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 340DAEF11D591EB900EC285B /* GTMAppAuthFetcherAuthorization.h */; settings = {ATTRIBUTES = (Private, ); }; };
+		340DAEF91D591EB900EC285B /* GTMAppAuthFetcherAuthorization.h in Headers */ = {isa = PBXBuildFile; fileRef = 340DAEF11D591EB900EC285B /* GTMAppAuthFetcherAuthorization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		340DAEFA1D591EB900EC285B /* GTMAppAuthFetcherAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 340DAEF21D591EB900EC285B /* GTMAppAuthFetcherAuthorization.m */; };
 		340DAEFB1D591EB900EC285B /* GTMAppAuthFetcherAuthorization.m in Sources */ = {isa = PBXBuildFile; fileRef = 340DAEF21D591EB900EC285B /* GTMAppAuthFetcherAuthorization.m */; };
 		341E70721DE186D2004353C1 /* GTMAppAuth.h in Headers */ = {isa = PBXBuildFile; fileRef = 340DAEF01D591EB900EC285B /* GTMAppAuth.h */; settings = {ATTRIBUTES = (Public, ); }; };
