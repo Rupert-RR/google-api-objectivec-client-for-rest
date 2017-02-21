@@ -12,6 +12,9 @@
 
 #endif /* GTLR_h */
 
+#import <GTLR/GTMAppAuthUmbrella.h>
+#import <GTLR/AppAuthUmbrella.h>
+#import <GTLR/GTMSessionFetcherUmbrella.h>
 
 #import <GTLR/GTLRDefines.h>
 #import <GTLR/GTLRBatchQuery.h>
