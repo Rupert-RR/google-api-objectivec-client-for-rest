@@ -269,6 +269,9 @@
 		4FEE17CE1C03DB9E00A38758 /* GTMHTTPServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE17CA1C03DB9E00A38758 /* GTMHTTPServer.m */; };
 		4FEE17CF1C03DB9E00A38758 /* GTMSessionFetcherTestServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE17CC1C03DB9E00A38758 /* GTMSessionFetcherTestServer.m */; };
 		4FEE17D01C03DB9E00A38758 /* GTMSessionFetcherTestServer.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FEE17CC1C03DB9E00A38758 /* GTMSessionFetcherTestServer.m */; };
+		9A3443E71E5CA2E5003331F2 /* GTLR.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3443E31E5C893F003331F2 /* GTLR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3443E81E5CA300003331F2 /* GTLR.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3443E31E5C893F003331F2 /* GTLR.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A3443E91E5CA301003331F2 /* GTLR.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A3443E31E5C893F003331F2 /* GTLR.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		F4368F7B1B8235B800E17643 /* GTLRObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22521384818E005AEFAA /* GTLRObject.m */; };
 		F4368F7C1B8235B800E17643 /* GTLRQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE22541384818E005AEFAA /* GTLRQuery.m */; };
 		F4368F7D1B8235B800E17643 /* GTLRBatchQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 4FDE224A1384818E005AEFAA /* GTLRBatchQuery.m */; };
@@ -665,7 +668,6 @@
 		4FEE17CB1C03DB9E00A38758 /* GTMSessionFetcherTestServer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTMSessionFetcherTestServer.h; path = UnitTests/GTMSessionFetcherTestServer.h; sourceTree = "<group>"; };
 		4FEE17CC1C03DB9E00A38758 /* GTMSessionFetcherTestServer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTMSessionFetcherTestServer.m; path = UnitTests/GTMSessionFetcherTestServer.m; sourceTree = "<group>"; };
 		9A3443E31E5C893F003331F2 /* GTLR.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GTLR.h; sourceTree = "<group>"; };
-		9A3443E61E5C8F12003331F2 /* module_map */ = {isa = PBXFileReference; lastKnownFileType = text; path = module_map; sourceTree = "<group>"; };
 		F407F0FE136F948A005A4866 /* GTLRTasksConstants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GTLRTasksConstants.h; path = Generated/GTLRTasksConstants.h; sourceTree = "<group>"; };
 		F407F0FF136F948A005A4866 /* GTLRTasksConstants.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GTLRTasksConstants.m; path = Generated/GTLRTasksConstants.m; sourceTree = "<group>"; };
 		F4368F721B8233BF00E17643 /* GTLRiOSUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GTLRiOSUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -1008,7 +1010,6 @@
 				4F5CC88E1381EC7300D1D4CF /* Objects */,
 				4F5CC88F1381EC7F00D1D4CF /* Utilities */,
 				9A3443E31E5C893F003331F2 /* GTLR.h */,
-				9A3443E61E5C8F12003331F2 /* module_map */,
 			);
 			name = Common;
 			sourceTree = "<group>";
@@ -1260,6 +1261,7 @@
 				345D0E401DDF80A50044C585 /* OIDErrorUtilities.h in Headers */,
 				345D0EAE1DDF80A50044C585 /* OIDURLQueryComponent.h in Headers */,
 				345D0E0C1DDF80A50044C585 /* OIDAuthorizationResponse.h in Headers */,
+				9A3443E81E5CA300003331F2 /* GTLR.h in Headers */,
 				4F934E671512712100C4EA34 /* GTLRBase64.h in Headers */,
 				341E70BF1DE1883F004353C1 /* GTMTVAuthorizationService.h in Headers */,
 				4FEE17B51C03DB5900A38758 /* GTMSessionFetcher.h in Headers */,
@@ -1320,6 +1322,7 @@
 				345D0E241DDF80A50044C585 /* OIDAuthState.h in Headers */,
 				345D0DB31DDF80A50044C585 /* OIDAuthorizationService+IOS.h in Headers */,
 				345D0E211DDF80A50044C585 /* OIDAuthorizationUICoordinator.h in Headers */,
+				9A3443E71E5CA2E5003331F2 /* GTLR.h in Headers */,
 				345D0E731DDF80A50044C585 /* OIDScopeUtilities.h in Headers */,
 				34F271911D6AB67B004A4FC7 /* GTMAppAuthFetcherAuthorization+Keychain.h in Headers */,
 				345D0E171DDF80A50044C585 /* OIDAuthorizationService.h in Headers */,
@@ -1411,6 +1414,7 @@
 				F4A872491DAD1D6000D69E09 /* GTLRDateTime.h in Headers */,
 				F4A872471DAD1D6000D69E09 /* GTLRBatchQuery.h in Headers */,
 				345D0C721DDF80560044C585 /* AppAuth.h in Headers */,
+				9A3443E91E5CA301003331F2 /* GTLR.h in Headers */,
 				345D0E421DDF80A50044C585 /* OIDErrorUtilities.h in Headers */,
 				345D0E221DDF80A50044C585 /* OIDAuthorizationUICoordinator.h in Headers */,
 			);
@@ -2225,12 +2229,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Resources/GTLROSXFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
-				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-macOS.a",
@@ -2245,12 +2249,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "Resources/GTLROSXFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/../Frameworks";
-				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-macOS.a",
@@ -2287,13 +2291,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-iOS.a",
@@ -2311,13 +2315,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Distribution";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				FRAMEWORK_VERSION = A;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRiOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-iOS.a",
@@ -2335,11 +2339,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRtvOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
-				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-tvOS.a",
@@ -2358,11 +2362,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
+				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				INFOPLIST_FILE = "$(SRCROOT)/Resources/GTLRtvOSFramework-Info.plist";
 				INSTALL_PATH = "@loader_path/Frameworks";
-				MODULEMAP_FILE = Source/module_map;
 				OTHER_LDFLAGS = (
 					"-force_load",
 					"$(BUILT_PRODUCTS_DIR)/libAppAuth-tvOS.a",
